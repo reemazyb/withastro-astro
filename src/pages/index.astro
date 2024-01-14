@@ -1,9 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
 import Card from '../components/Card.astro';
 ---
-<a href="/">Home</a>
-<a href="/about/">About</a>
+<Navigation />
 <Layout title="Welcome to Astro.">
 	<main>
 		<svg
@@ -122,3 +123,5 @@ import Card from '../components/Card.astro';
 		padding: 0;
 	}
 </style>
+
+<Footer />
